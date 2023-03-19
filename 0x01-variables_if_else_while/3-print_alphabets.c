@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  *
- * Description: 'print alphabet in lowercase then in uppercase'
+ * Description: 'print alphabets lowercase and uppercase'
  *
  * Return: Alawys 0
 */
