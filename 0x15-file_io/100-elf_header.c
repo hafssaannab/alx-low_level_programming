@@ -11,7 +11,7 @@ void print_magic(Elf64_Ehdr h)
 {
 	int i;
 
-	printf("  Magic:   ");
+	printf("Magic:");
 	for (i = 0; i < EI_NIDENT; i++)
 		printf("%2.2x%s", h.e_ident[i], i == EI_NIDENT - 1 ? "\n" : " ");
 }
@@ -22,7 +22,7 @@ void print_magic(Elf64_Ehdr h)
  */
 void print_class(Elf64_Ehdr h)
 {
-	printf("  Class:                ")
+	printf("Class:")
 	switch (h.e_ident[EI_CLASS])
 	{
 		case ELFCLASS64:
